@@ -11,7 +11,7 @@ class BrutalCommands(commands.Cog):
 
 
     @commands.command()
-    async def Example(self, ctx):
+    async def exemple(self, ctx):
         """Example Command"""
         example = "This is an example command" 
         embed = discord.Embed(title="Example", description=example)
